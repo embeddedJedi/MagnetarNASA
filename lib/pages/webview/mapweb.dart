@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_inappwebview/flutter_inappwebview.dart';
+import 'package:magnetar_fima/ui/mapScreen.dart';
 
 class MapWeb extends StatelessWidget {
   @override
@@ -47,7 +48,7 @@ class MapWeb extends StatelessWidget {
               padding: const EdgeInsets.all(16.0),
               child: Text(
                 'Other Mapping (Observation Tower)',
-                style: TextStyle(fontSize: 19.0, fontWeight: FontWeight.bold),
+                style: TextStyle(fontSize: 13.0, fontWeight: FontWeight.bold),
               ),
             ),
           ],
@@ -59,7 +60,12 @@ class MapWeb extends StatelessWidget {
           bottom: 50,
         ), // Ayarlayın
         child: FloatingActionButton(
-          onPressed: () {},
+          onPressed: () {
+            MaterialPageRoute(
+              builder: (context) =>
+                  MainMapScreen(), // DiğerSayfa yerine geçmek istediğiniz sayfanın adını kullanın
+            );
+          },
           child: Icon(Icons.next_plan),
         ),
       ),

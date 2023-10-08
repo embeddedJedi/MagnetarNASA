@@ -4,9 +4,6 @@ class SummaryPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text('Orman Yangınları: Sebepler, Etkiler ve Önleme'),
-      ),
       body: SingleChildScrollView(
         padding: EdgeInsets.all(16.0),
         child: Column(
