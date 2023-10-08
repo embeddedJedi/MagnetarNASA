@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "624987308448",
+    "project_id": "magnetar-fima",
+    "storage_bucket": "magnetar-fima.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:624987308448:android:d762fb6500cdeea8a764c5",
+        "android_client_info": {
+          "package_name": "com.mfima.magnetar_fima"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjYkGnoLyzXueBnfJ3jAcj29WVyv7hVwM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
